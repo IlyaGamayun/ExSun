@@ -8,3 +8,24 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 330px;
+  background-color: #fa9c59;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+
+  color: #fff;
+  display: flex;
+}

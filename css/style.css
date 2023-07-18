@@ -17,9 +17,30 @@ a {
   text-decoration: none;
 }
 
+header {
+  position: fixed;
+  left: 330px;
+  z-index: 0;
+}
+
 nav {
   width: 330px;
+  height: 100vh;
   background-color: #fa9c59;
+  z-index: 1;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+
+  height: 30px;
+  text-align: center;
+  background-color: darkslategray;
+  color: #fff;
 }
 
 .heading {
